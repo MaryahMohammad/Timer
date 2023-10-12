@@ -1,0 +1,62 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 246, 247);
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+.blue {
+    width: 20%;
+    height: 55%;
+    background-color: rgb(135, 135, 232);
+    border: 130%;
+    border-radius: 50%;
+    filter: blur(200px);
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+
+.purpul {
+    width: 20%;
+    height: 55%;
+    background-color: rgb(236, 142, 236);
+    border: 130%;
+    border-radius: 50%;
+    filter: blur(200px);
+    position: absolute;
+    top: 20%;
+    right: 0%;
+}
+
+.timer {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 30%;
+    margin: 5%;
+    text-align: center;
+}
+
+
+.timer_part {
+    font-size: 100px;
+    text-align: center;
+}
+
+.timer_btn {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: rgb(233, 199, 233);
+    cursor: pointer;
+}
